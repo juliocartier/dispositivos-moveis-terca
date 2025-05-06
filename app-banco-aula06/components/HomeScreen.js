@@ -14,6 +14,7 @@ function HomeScreen({ navigation, route }) {
                 <Text>Bem vindo ao nosso aplicativo!</Text>
                 <Text>Email: {email}</Text>
                 <Text>ID: {uid} </Text>
+                <Button title="Ir para Protudos" onPress={() => navigation.navigate('Produto')}/>
                 <Button title="Sair" onPress={handleLogout}/>
             </View>
     );
