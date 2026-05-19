@@ -1,1 +1,8 @@
 node_modules*
+env/
+myenv/
+.claude/
+.expo/
+.vscode/
+AGENTS.md
+CLAUDE.md
